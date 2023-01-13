@@ -28,8 +28,8 @@
   background-color: #2f80ed;
   position: absolute;
   top: 64px;
-  right: 0;
-  z-index: 0;
+  right: 0px;
+  z-index: 0px;
 }
 
 /* including elements with key-value modifiers */
@@ -87,8 +87,8 @@
   width: 756px;
   height: 608px;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 0px;
+  right: 0px;
   z-index: 1;
 }
 
@@ -226,7 +226,7 @@
 
 .kaufman__triangle {
   position: absolute;
-  top: 0;
+  top: 0px;
   right: -124px;
   z-index: 0;
 }
@@ -277,4 +277,82 @@
   font-size: 18px;
   font-weight: normal;
   margin: 20px auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding-top: 60px;
+  min-height: 350px;
+  padding-bottom: 40px;
+  background-color: #1f1f1f;
+}
+
+.footer__columns {
+  width: 90%;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+}
+
+.footer__column_content_about {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 60px;
+  right: 400px;
+}
+
+.footer__column_content_social {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  top: 60px;
+  right: 100px;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+  position: absolute;
+  top: 60px;
+}
+
+.footer__author {
+  position: absolute;
+  bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.footer__column-heading {
+  color: #fff;
+}
+
+.footer__list {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  color: #fff;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__social-icons {
+  margin-right: 10px;
 }
