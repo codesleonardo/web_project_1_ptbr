@@ -1,3 +1,5 @@
+@import url(../blocks/rotation/rotation.css);
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -30,6 +32,8 @@
   top: 64px;
   right: 0px;
   z-index: 0px;
+  transform: rotate(-15deg);
+  animation: spin 20s linear infinite;
 }
 
 .logo {
@@ -138,6 +142,38 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+.techniques {
+  margin: 100px auto;
+  margin-left: 100px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 60px 40px 43px 40px;
+}
+
+.cards__item {
+  justify-content: center;
+  width: 250px;
+  list-style-type: none;
+  margin: auto 100px;
+}
+
+.cards__title {
+  text-align: center;
+}
+
+.cards__description {
+  text-align: center;
 }
 
 .table {
