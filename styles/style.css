@@ -183,6 +183,7 @@
 }
 
 .video {
+  margin: 100px auto;
 }
 
 .video__iframe {
@@ -190,7 +191,6 @@
   justify-content: center;
   gap: 20px;
   margin: 50px auto -50px;
-  position: relative;
 }
 
 .oakley {
