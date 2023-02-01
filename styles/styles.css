@@ -231,19 +231,19 @@
   padding: 0;
 }
 
-.table__cell {
+.table-cell {
   width: 250px;
   list-style-type: none;
   margin: 0;
 }
 
-.table__heading {
+.table-heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
-.table__text {
+.table-text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -259,7 +259,7 @@
   z-index: 4;
 }
 
-.table__cell_theme_dark {
+.table-cell_theme_dark {
   width: 200px;
   list-style-type: none;
   margin: 0;
@@ -267,13 +267,13 @@
   z-index: 5;
 }
 
-.table__heading_theme_dark {
+.table-cell_heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
-.table__text_theme_dark {
+.table-cell_text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
