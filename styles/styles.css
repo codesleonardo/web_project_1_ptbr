@@ -122,7 +122,7 @@
   margin: 100px auto;
 }
 
-.section-title {
+.section__title {
   display: flex;
   justify-content: center;
   margin: 100px auto auto;
@@ -132,7 +132,7 @@
   font-weight: bold;
 }
 
-.section-subtitle {
+.section__subtitle {
   display: flex;
   justify-content: center;
   margin: 20px auto auto;
