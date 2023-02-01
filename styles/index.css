@@ -43,7 +43,7 @@
   z-index: 4;
 }
 
-.logo_place_header {
+.logo__place-header {
   width: 154px;
   height: 31px;
 }
@@ -357,7 +357,7 @@
   animation: spin 20s linear infinite;
 }
 
-.section-title_theme_dark {
+.section__title_theme-dark {
   margin: auto;
   width: 60%;
   line-height: 1.15;
@@ -368,7 +368,7 @@
   z-index: 2;
 }
 
-.section-subtitle_theme_dark {
+.section__subtitle_theme-dark {
   margin: 20px auto auto;
   width: 60%;
   line-height: 34px;
@@ -379,7 +379,7 @@
   z-index: 3;
 }
 
-.table_theme_dark {
+.table__theme-dark {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -388,7 +388,7 @@
   z-index: 4;
 }
 
-.table__cell_theme_dark {
+.table__cell_theme-dark {
   width: 200px;
   list-style-type: none;
   margin: 0;
@@ -396,13 +396,13 @@
   z-index: 5;
 }
 
-.table__heading_theme_dark {
+.table__heading_theme-dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
-.table__text_theme_dark {
+.table__text_theme-dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
