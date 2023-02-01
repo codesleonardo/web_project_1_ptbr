@@ -186,11 +186,15 @@
   margin: 100px auto;
 }
 
-.video__iframe {
+.video__iframes {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin: 50px auto -150px;
+}
+.video__iframe {
+  width: "515px";
+  height: "316px";
 }
 
 .oakley {
