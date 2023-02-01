@@ -142,7 +142,7 @@
   font-weight: normal;
 }
 
-.section__title-dark {
+.section__title-theme-dark {
   margin: auto;
   width: 60%;
   line-height: 1.15;
@@ -153,7 +153,7 @@
   z-index: 2;
 }
 
-.section__subtitle-dark {
+.section__subtitle-theme-dark {
   margin: 20px auto auto;
   width: 60%;
   line-height: 34px;
@@ -250,7 +250,7 @@
   margin: 20px auto;
 }
 
-.table-dark {
+.table-theme-dark {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -259,7 +259,7 @@
   z-index: 4;
 }
 
-.table__cell-dark {
+.table__cell-theme-dark {
   width: 200px;
   list-style-type: none;
   margin: 0;
@@ -267,13 +267,13 @@
   z-index: 5;
 }
 
-.table__heading-dark {
+.table__heading-theme-dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
-.table__text-dark {
+.table__text-theme-dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
