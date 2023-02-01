@@ -142,7 +142,7 @@
   font-weight: normal;
 }
 
-.section__title_theme_dark {
+.section-title_theme_dark {
   margin: auto;
   width: 60%;
   line-height: 1.15;
@@ -153,7 +153,7 @@
   z-index: 2;
 }
 
-.section__subtitle_theme_dark {
+.section-subtitle_theme_dark {
   margin: 20px auto auto;
   width: 60%;
   line-height: 34px;
