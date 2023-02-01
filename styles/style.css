@@ -405,6 +405,16 @@
   margin: 20px auto;
 }
 
+.resources-__logo-zone {
+  width: 1100px;
+  margin: 80px auto 217px;
+}
+
+.resources-__logo {
+  width: 270px;
+  height: 38px;
+}
+
 .footer {
   display: flex;
   justify-content: space-around;
