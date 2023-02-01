@@ -142,6 +142,28 @@
   font-weight: normal;
 }
 
+.section__title-dark {
+  margin: auto;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+}
+
+.section__subtitle-dark {
+  margin: 20px auto auto;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+  z-index: 3;
+}
+
 .techniques {
   margin: 100px auto;
   margin-left: 100px;
@@ -222,6 +244,36 @@
 }
 
 .table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px auto;
+}
+
+.table-dark {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: 60px auto auto;
+  z-index: 4;
+}
+
+.table__cell-dark {
+  width: 200px;
+  list-style-type: none;
+  margin: 0;
+  color: #fff;
+  z-index: 5;
+}
+
+.table__heading-dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text-dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -353,58 +405,6 @@
   right: -124px;
   z-index: 1;
   animation: spin 20s linear infinite;
-}
-
-.section__title-theme-dark {
-  margin: auto;
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  color: #fff;
-  text-align: center;
-  z-index: 2;
-}
-
-.section__subtitle-theme-dark {
-  margin: 20px auto auto;
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  color: #fff;
-  text-align: center;
-  z-index: 3;
-}
-
-.table-theme-dark {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 1100px;
-  margin: 60px auto auto;
-  z-index: 4;
-}
-
-.table__cell-theme-dark {
-  width: 200px;
-  list-style-type: none;
-  margin: 0;
-  color: #fff;
-  z-index: 5;
-}
-
-.table__heading-theme-dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.table__text-theme-dark {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 20px auto;
 }
 
 .resources-__logo-zone {
