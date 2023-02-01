@@ -419,7 +419,7 @@
 
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   position: relative;
   padding-top: 60px;
   min-height: 350px;
@@ -428,7 +428,6 @@
 }
 
 .footer-columns {
-  width: 90%;
 }
 
 .footer-columns_content_copyright {
@@ -461,12 +460,14 @@
 }
 
 .footer-author {
+  align-items: flex-start;
   position: absolute;
   bottom: 18px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   color: #fff;
+  margin-left: 64px;
 }
 
 .footer-columns_heading {
