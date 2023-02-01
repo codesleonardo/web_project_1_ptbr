@@ -431,11 +431,11 @@
   width: 90%;
 }
 
-.footer-column_content_copyright {
+.footer-columns_content_copyright {
   flex-basis: 711px;
 }
 
-.footer-column_content_about {
+.footer-columns_content_about {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -444,7 +444,7 @@
   right: 400px;
 }
 
-.footer-column_content_social {
+.footer-columns_content_social {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -469,7 +469,7 @@
   color: #fff;
 }
 
-.footer-column_heading {
+.footer-columns_heading {
   color: #fff;
 }
 
@@ -483,7 +483,7 @@
   color: #fff;
 }
 
-.footer-column_link {
+.footer-columns_link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
