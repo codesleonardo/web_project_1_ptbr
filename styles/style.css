@@ -190,7 +190,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin: 50px auto -50px;
+  margin: 50px auto -150px;
 }
 
 .oakley {
@@ -268,19 +268,89 @@
   color: #2f80ed;
 }
 
+.khan {
+  display: flex;
+  background-color: #f2f2f2;
+  margin: 100px auto auto;
+}
+
+.khan__container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding-top: 105px;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  width: 790px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 50px;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 36px auto auto;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 10px auto auto;
+}
+
+.khan__book-container {
+  display: flex;
+  width: 620px;
+  height: 608px;
+  margin: 68px 48px -250px 0px;
+}
+
+.khan__book-pic {
+  margin-right: 48px;
+}
+
+.khan__buy-link {
+  text-decoration: none;
+  color: #2f80ed;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
 .kaufman {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
   padding-top: 90px;
   padding-bottom: 90px;
+  z-index: 0;
 }
 
 .kaufman__triangle {
   position: absolute;
   top: 0px;
   right: -124px;
-  z-index: 0;
+  z-index: 1;
+  animation: spin 20s linear infinite;
 }
 
 .section-title_theme_dark {
@@ -291,6 +361,7 @@
   font-weight: bold;
   color: #fff;
   text-align: center;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
@@ -301,6 +372,7 @@
   font-weight: normal;
   color: #fff;
   text-align: center;
+  z-index: 3;
 }
 
 .table_theme_dark {
@@ -309,6 +381,7 @@
   flex-wrap: wrap;
   width: 1100px;
   margin: 60px auto auto;
+  z-index: 4;
 }
 
 .table__cell_theme_dark {
@@ -316,7 +389,7 @@
   list-style-type: none;
   margin: 0;
   color: #fff;
-  z-index: 1;
+  z-index: 5;
 }
 
 .table__heading_theme_dark {
